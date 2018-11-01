@@ -1,0 +1,26 @@
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, string argv[])
+{
+if (argc == 2)
+    {
+    if (argv[1] > 0 )
+    {
+        int shift =atoi(argv[1]);
+    string s = get_string("Input: ");
+        for (int n = 0 ; n < strlen(s) ; n++)
+        {
+            int ascii = s[n];
+            printf("%C", ascii + shift );
+        }
+    }
+    else
+        printf("key");
+    }
+    else
+    {
+        printf("key");
+    }
+}
